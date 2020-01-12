@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 # Compile and run test
 set(CMAKE_CXX_STANDARD 17)
-add_executable(ts_default ${CMAKE_CURRENT_SOURCE_DIR}/default.cpp)
+add_executable(ts_default ${CMAKE_CURRENT_SOURCE_DIR}/ts_default_main.cpp)
 target_link_libraries(ts_default volt_emote)
 
 # set(WARNING_FLAGS "-Wall -Wextra -pedantic -Werror -Wno-unknown-pragmas -Wno-unused-parameter")
