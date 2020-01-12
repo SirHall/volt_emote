@@ -12,7 +12,7 @@ conan_basic_setup()
 message(STATUS "Libs: ${CONAN_LIBS}")
 
 # Add in volt_net
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/volt_net/)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/volt_emote/)
 
 # Add in volt_event
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/dep/volt_event/)
@@ -36,5 +36,6 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/volt_net/)
 # endif ()
 
 enable_testing()
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/tests/default/)
 
 # Add in tests
