@@ -1,3 +1,4 @@
+Source: Work and Personality: Use of the NEO-PI-R in Industrial/Organization Psychology : Paul T. Costa, Jr., Ph.D. : National Institute on Aging, USA : Pg. 228
 | Facet                 |       N |       E |       O |       A |       C |
 | :-------------------- | :-----: | :-----: | :-----: | :-----: | :-----: |
 | **Neuroticism**       |         |         |         |         |         |
